@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    min-height: 100vh;
+    width: 100%;
+    background: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container {
+    width: 300px;
+    height: 360px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+.header {
+    background: black;
+    color: #fff;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.header h3 {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.form {
+    padding: 10px 30px 30px 30px;
+    width: 100%;
+
+
+}
+
+.row {
+    position: relative;
+    margin-top: 20px;
+}
+
+.row input {
+    height: 35px;
+    width: 100%;
+    padding-left: 37px;
+    border: 1px solid rgb(230, 230, 230);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.row i {
+    position: absolute;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    width: 35px;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.forgot-password {
+    margin-top: 10px;
+}
+
+.forgot-password .forgot {
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(41, 41, 41);
+transition: all 0.1s linear;
+}
+.forgot-password .forgot:hover{
+    color: #000;
+}
+.submit-button input {
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 35px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.signup,
+.signup a {
+    color: rgb(41, 41, 41);;
+    font-size: 15px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: all 0.1s linear;
+}
+.signup a:hover{
+    color: black;
+}
